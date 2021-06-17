@@ -18,8 +18,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * Hello world!
+ * Clase donde se implementa el Servidor
  */
+
 public class HttpServer {
     private ServerSocket serverSocket;
     private static HttpServer _instance = new HttpServer();
@@ -37,7 +38,7 @@ public class HttpServer {
     }
 
     public void startServer(String[] args) throws IOException {
-        int port = 35000;
+        int port = 35005;
         try {
             serverSocket = new ServerSocket(port);
         } catch (IOException e) {
@@ -99,8 +100,6 @@ public class HttpServer {
                 break;
             }
         }
-
-
         String responseMessage = createResponse(path);
         out.println(responseMessage);
 

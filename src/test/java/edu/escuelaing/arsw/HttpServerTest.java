@@ -14,15 +14,14 @@ import java.io.InputStreamReader;
 import static org.junit.Assert.*;
 
 /**
- * Unit test for simple App.
+ * Pruebas de la clase HttpServer
  */
 public class HttpServerTest
 {
     /**
-     * Rigorous Test :-)
+     * Metodo que retorna el String del urla
      */
 
-    /* Metodo para retornar el String  del url */
     private String getResult(String url) throws IOException {
         CloseableHttpClient httpClient = HttpClients.custom().build();
         HttpGet httpGet = new HttpGet(url);
@@ -40,23 +39,30 @@ public class HttpServerTest
     public static void setup() throws IOException {
         HttpServer.main(null);
     }
-
+    /**
+     * Prueba para comprobar que se este realizando la peticion
+     */
     @Test
     public void ComprobarPeticion () throws IOException {
-        String result = getResult("http://localhost:35000/mypage.html");
+        String result = getResult("http://localhost:35005/mypage.html");
         assertNotNull(result);
 
     }
-
+    /**
+     * Prueba para la validacion de que el recurso no exite
+     */
     @Test
     public void RecursoNoExistente() throws IOException{
-        String result = getResult("http://localhost:35000/mhola.html");
+        String result = getResult("http://localhost:35005/mhola.html");
         assertTrue(result.isEmpty());
     }
 
+    /**
+     * Prueba para validar que el html.
+     */
     @Test
     public void ProbarHtml() throws IOException {
-        String result = getResult("http://localhost:35000/mypage.html");
+        String result = getResult("http://localhost:35005/mypage.html");
         assertEquals("<!DOCTYPE html><html lang=\"en\"><head>    <meta charset=\"UTF-8\">    <title>Title</title></head><body>    <img src=\"https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-plant-flowers-background-design-backgroundpink-image_73306.jpg\" alt=\"flores\"/></body></html>",result);
     }
 }
