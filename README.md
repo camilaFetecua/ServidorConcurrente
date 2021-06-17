@@ -32,7 +32,9 @@
    
     java -cp ServidorConcurrente-1.0-SNAPSHOT.jar edu.escuelaing.arsw.HttpServerTest
       
+# Diagrama de clases  
 
+![Imagen](https://github.com/camilaFetecua/ServidorConcurrente/blob/master/Imagenes/Clasesservifot.PNG)
 
 # Licencia
 
