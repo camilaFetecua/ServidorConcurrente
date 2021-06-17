@@ -22,16 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a91ce7a-8b8f-4b9b-936f-aaf8bb62736b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arsw/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arsw/HttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/escuelaing/arsw/HttpServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/escuelaing/arsw/HttpServerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8a91ce7a-8b8f-4b9b-936f-aaf8bb62736b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -231,26 +222,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="476" y="34" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1623798568482" />
-    <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1623864689967">
+    <state x="441" y="98" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1623896946987">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1623864689967" />
-    <state width="1323" height="169" key="GridCell.Tab.0.bottom" timestamp="1623894799306">
+    <state x="441" y="98" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1623896946987" />
+    <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1623896944950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1623894799306" />
-    <state width="1323" height="169" key="GridCell.Tab.0.center" timestamp="1623894799306">
+    <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1623896944950" />
+    <state width="1323" height="104" key="GridCell.Tab.0.bottom" timestamp="1623896947189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1623894799306" />
-    <state width="1323" height="169" key="GridCell.Tab.0.left" timestamp="1623894799306">
+    <state width="1323" height="104" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1623896947189" />
+    <state width="1323" height="104" key="GridCell.Tab.0.center" timestamp="1623896947189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1623894799306" />
-    <state width="1323" height="169" key="GridCell.Tab.0.right" timestamp="1623894799306">
+    <state width="1323" height="104" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1623896947189" />
+    <state width="1323" height="104" key="GridCell.Tab.0.left" timestamp="1623896947189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1623894799306" />
+    <state width="1323" height="104" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1623896947189" />
+    <state width="1323" height="104" key="GridCell.Tab.0.right" timestamp="1623896947189">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="104" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1623896947189" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1623870867767">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
